@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.navbar h1{
+    margin-left: 10px;
+    font-size: 50px;
+}
+.navbar li {
+    list-style: none;
+}
+.navbar li ul{
+    display: inline-block;
+    margin: 15px;
+    text-transform: uppercase;
+    color: black;
+}
+.navbar li ul:hover{
+ text-decoration: underline;
+}
+.navbar li a{
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+}
+/* .bi:hover{
+ color: rgb(60, 222, 211);
+ display: inline-block;
+} */
+
+.home{
+    display: flex;
+    margin-top: 40px;
+}
+.left{
+    margin: auto;
+   
+}
+.left{
+    width: 40%;
+    height: 100%;
+}
+.right{
+    margin: auto;
+    margin-right: 20px;
+    /* border: 2px solid yellow;  */
+}
+.right img{
+   width: 100%;
+   margin: auto;
+}
+.left h1{
+    margin-left: 150px;
+    font-weight: 500;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 1.5;
+}
+.left h4{
+    margin-left: 150px;
+    width: 50%;
+}
+.left button{
+    margin: 10px 150px;
+    width: 30%;
+    height: 50px;
+    color: rgb(252, 252, 252);
+    background-color: black;
+    font-size: 15px;
+}
+
+.firstbr img{
+    height: 250px;
+    width: 100%;
+}
+
+
+/*    second   */
+.second{
+    display: flex;
+    justify-content: center;
+}
+.second h1{
+    margin: -30px 0 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.second .right2{
+    margin: auto;
+    width: 50%;
+}
+.second .right2 button{
+    margin: 10px 0;
+    width: 40%;
+    height: 50px;
+    color: rgb(252, 252, 252);
+    background-color: black;
+    font-size: 15px;
+}
+.secondbr img{
+    margin-top: -7px;
+    width: 100%;
+}
+
+/* third */
+.third{
+    display: flex;
+}
+.third-1, .third-2, .third-3{
+    width: 33.3%;
+    margin-left: 10px;
+    height: 100vh;
+}
+.third-1 h3, h1{
+    margin-left: 20px;
+}
+.third-1 h1{
+    font-size: 40px;
+    font-weight:100;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
+    /* margin-left: 20px; */
+}
+.third-2, .third-3{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 30%;
+    background-color: black;
+    color: white;
+    border-top-right-radius: 30px; 
+    border-bottom-right-radius: 30px; 
+}
+
+.third-3{
+    background-color: rgb(228, 225, 225);
+    color: black;
+}
+.third-2 img{
+    width: 90%;
+    height: 30%;
+    margin-top: 30px;
+}
+.third-3 img{
+    height: 30%;
+    width: 90%;
+    margin-top: 30px;
+}
+.third-3, .third-2, h3, h6, button{
+    margin-left: 10px;
+    line-height: 1.5;
+    margin-top: 30px;
+}
+.third-3  button{
+    width: 40%;
+    height: 50px;
+    color: rgb(3, 3, 3);
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    border: none;
+}
+.third-2  button{
+    width: 40%;
+    height: 50px;
+    color: rgb(3, 3, 3);
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    border: none;
+}
+
+/* fourth */
+.fourth{
+    display: flex;
+    justify-content: center;
+}
+.team{
+    width: 20%;
+    margin: 10px;
+}
+.circle{
+    
+    width: 200px;
+    height: 200px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+}
+
+
+/* fifit */
+.fifth{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+}
+.fifth .left, .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.fifth .left h1, h3, label{
+    margin: 0 0 30px;
+
+}
+.fifth .left button{
+    max-width: 100px 10px;
+}
+
+/* sixth */
+.sixth{
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+}
+.card-1, .card-2, .card-3{
+    background-color: black;
+    color: aliceblue;
+    margin-left: 20px;
+    border-top-right-radius: 30px; 
+    border-bottom-right-radius: 30px;
+    text-align: start;
+    line-height: 2;
+    
+}
+.card-2, .card-3{
+    background-color:rgb(230, 235, 241) ;
+    color: black;
+    box-shadow: 5px 10px #eee0e0;
+}
+
+/*  seventh */
+.seventh{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    padding:2% 20%;
+
+}
+.card{
+    flex: 40%;
+    height: 370px;
+    width: 30px;
+    background-color: rgb(207, 222, 233);
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+    margin-bottom: 50px;
+    border-top-right-radius: 30px; 
+    border-bottom-right-radius: 30px;
+    text-align: start;
+    line-height: 2;
+    box-shadow: 10px 10px;
+}
+.card h2 , h6, button{
+    margin: 30px 20px;
+}
+
+
+/*  eight */
+.eigth{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+.eigth .left,.right{
+    width: 50%;
+    
+}
+
+
+/* footer */
+.footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.f-1, .f-2, .f-3{
+    justify-content: center;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+  
+}
+.footer h1{
+    margin: 0;
+}
+.f-1{
+    margin: 0 20px;
+    text-align: start;
+     margin-top: 20px;
+}
+
+.f-2 a{
+    width: 40%;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(0, 0, 0);
+}
+.buttom {
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    margin-top: 10px;
+}
+.buttom .bi{
+    margin-right: 5px;
+    margin-left: 20px;
+}
+
+.btm{
+    width: 95%;
+    margin: auto;
+    margin-bottom: 20px;
+}
